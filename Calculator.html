@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script>
+    </script>
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <script src="calculator.js"></script>
+    <form class="calculator" name="calc">
+        <input class="value" type="text" id="txt" readonly>
+        <span class="num clear" onclick="clr()">C</span>
+        <span class="num" value="/" onclick="disp('/')">/</span>
+        <span class="num" value="*" onclick="disp('*')">*</span>
+        <span class="num" value="7" onclick="disp('7')">7</span>
+        <span class="num" value="8" onclick="disp('8')">8</span>
+        <span class="num" value="9" onclick="disp('9')">9</span>
+        <span class="num" value="-" onclick="disp('-')">-</span>
+        <span class="num" value="4" onclick="disp('4')">4</span>
+        <span class="num" value="5" onclick="disp('5')">5</span>
+        <span class="num" value="6" onclick="disp('6')">6</span>
+        <span class="num plus" value=+ onclick="disp('+')">+</span>
+        <span class="num" value="3" onclick="disp('+')">3</span>
+        <span class="num" value="2" onclick="disp('2')">2</span>
+        <span class="num" value="1" onclick="disp('1')">1</span>
+        <span class="num" value="0" onclick="disp('0')">0</span>
+        <span class="num" value="00" onclick="disp('00')">00</span>
+        <span class="num" value="." onclick="disp('.')">.</span>
+        <span class="num equal" onclick="solve()">=</span>
+    </form>
+</body>
+</html>
